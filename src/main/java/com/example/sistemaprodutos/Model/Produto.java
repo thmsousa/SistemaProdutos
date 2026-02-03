@@ -1,18 +1,18 @@
-package com.example.sistemaprodutos;
+package com.example.sistemaprodutos.Model;
 
 import java.util.Objects;
 
 public class Produto {
     private int id;
     private String nome;
-    private float preco;
+    private double preco;
 
     public Produto(){}
-    public Produto(String nome, float preco) {
+    public Produto(String nome, double preco) {
         this.nome = nome;
         this.preco = preco;
     }
-    public Produto(int id, String nome, float preco) {
+    public Produto(int id, String nome, double preco) {
         this.id = id;
         this.nome = nome;
         this.preco = preco;
@@ -34,11 +34,11 @@ public class Produto {
         this.nome = nome;
     }
 
-    public float getPreco() {
+    public double getPreco() {
         return preco;
     }
 
-    public void setPreco(float preco) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
 

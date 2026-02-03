@@ -1,7 +1,5 @@
-package com.example.sistemaprodutos;
+package com.example.sistemaprodutos.Model;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 public class Usuario {
